@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Laptop Landing Page</title>
+    
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("laptop.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 50px 0;
+
+}
+
+header h1 {
+    text-align:start;
+    position:absolute;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display:flex;
+    margin: 10px;
+    float: right;
+    position: relative;
+    border:1px ;
+    padding: 10px;
+    border-radius: 15px;
+   
+    color: black;
+}
+header nav ul li:hover{
+    background-color: rgb(242, 197, 114);
+    box-shadow:0 0 20px ;
+}
+header nav ul li:active{
+    transform: scale(0.9);
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+}
+
+#hero {
+    background:transparent;
+    text-align: center;
+    width: max-content;
+    justify-content: center;
+    margin-left: 500px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+#hero:hover{
+    background-color: #333;
+    transition: ease-in-out 1s;
+    backdrop-filter: blur(20px);
+}
+#hero h2 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: greenyellow;
+    
+    transition:ease-in-out 0.5s;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+p,li{
+    color: #fff;
+}
+h2,h1{
+    color: orange;
+}
+</style>
+<body>
+    <header>
+        <h1>MY WORKS</h1>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#specs">Specifications</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Introducing the New Laptop Pro</h2>
+            <p>A powerful and sleek laptop designed to meet all your computing needs.</p>
+            <a href="#pricing" class="btn">Buy Now</a>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <ul>
+                <li>15.6" Full HD Display</li>
+                <li>Intel Core i7 Processor</li>
+                <li>16GB RAM</li>
+                <li>512GB SSD</li>
+                <li>NVIDIA GeForce GTX Graphics</li>
+                <li>Backlit Keyboard</li>
+                <li>Windows 11</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="specs">
+        <div class="container">
+            <h2>Specifications</h2>
+            <ul>
+                <li>Display: 15.6" Full HD</li>
+                <li>Processor: Intel Core i7</li>
+                <li>Memory: 16GB RAM</li>
+                <li>Storage: 512GB SSD</li>
+                <li>Graphics: NVIDIA GeForce GTX</li>
+                <li>Operating System: Windows 11</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <div class="container">
+            <h2>Pricing</h2>
+            <p>Starting at $1299</p>
+            <p>Special offer: Free shipping for a limited time!</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions? Contact our support team at support@example.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Laptop Emporium. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
